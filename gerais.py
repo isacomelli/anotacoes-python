@@ -1,9 +1,5 @@
 # Anotações Gerais sobre Python
-"""
-Observações:
-- [Ctrl + /] serve para para colocar/tirar todas as linhas com # selecionadas de uma vez
-- [Ctrl + Click em algo] abre um documento de help do PyCharm sobre isso que foi clicado
-"""
+
 # ---------------------------- 1. dir ----------------------------
 # Serve para mostrar quais funções ou métodos estão disponíveis para tais variáveis/dados.
 """
@@ -64,6 +60,14 @@ variavel = "nome composto teste"
 nova_variavel = variavel.replace(" ", ", ")
 print(nova_variavel)
 print(variavel.replace("o", "0"))
+"""
+
+# 4.3 strip
+# Remove os backspaces em inícios e finais de strings.
+"""
+-----Sintaxes/Exemplos-----
+variavel = " nome composto teste     "
+print(f'.{variavel.strip()}.')
 """
 
 # ---------------------------- 5. Uso do is como "pergunta" ----------------------------
